@@ -1,0 +1,9 @@
+{
+  "SystemName": "Smartstore.Accounting",
+  "FriendlyName": "Contabilidad",
+  "Description": "Módulo de contabilidad para Smartstore.",
+  "Version": "1.0.0",
+  "Author": "Tu Nombre o Empresa",
+  "Category": "Finanzas",
+  "Dependencies": []
+}

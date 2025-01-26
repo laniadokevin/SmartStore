@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Smartstore.Accounting.Models.AccountingEntry>
+
+<table>
+    <thead>
+        <tr>
+            <th>Descripción</th>
+            <th>Monto</th>
+            <th>Fecha</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var entry in Model)
+        {
+            <tr>
+                <td>@entry.Description</td>
+                <td>@entry.Amount</td>
+                <td>@entry.TransactionDate</td>
+            </tr>
+        }
+    </tbody>
+</table>
